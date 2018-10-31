@@ -6,6 +6,3 @@ A Well Known Closet Company missed out on alot of leads due to an inefficeint no
 I proposed a Desktop Alert Soulution that would grab the Users attetion during inbound calls. A window springs into the center of the users computer, alerting any users with the program running of a current inbound call. 
 
 The alert will stay present as long as someone is calling. Fades away when someones answers or clicks close window. Along with the visual alert is an repeating audio alert!
-
-
-$
