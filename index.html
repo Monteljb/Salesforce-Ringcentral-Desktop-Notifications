@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <script src="jquery-1.11.0.min.js"></script>
+<script>
+$(document).ready(function() {
+  $('#mybutton').hide().delay(3000).fadeIn(2200);
+});
+</script>
+    <script>
+
+     function myFunction() {
+       const remote = require('electron').remote;
+           var window = remote.getCurrentWindow();
+           window.minimize();
+      ;
+    }
+    </script>
+
+    <script>
+    window.onload = function() {
+      document.getElementById("my_audio").play();
+      setInterval(function() { document.getElementById("my_audio").play(); },4000);
+    }
+    </script>
+      <audio id="my_audio" src="not.mp3"></audio>
+    <center>
+    <h1>Inbound Call!</h1>
+    <div id="minbut"><button onclick="myFunction()">Minimize</button></div>
+
+  </center>
+    <!-- Scripts -->
+    <script>
+      // You can also require other files to run in this process
+      require('./renderer.js')
+    </script>
+  </body>
+</html>

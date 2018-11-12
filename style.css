@@ -1,0 +1,45 @@
+body {
+    background-image: url("bg.png");
+    max-width: 100%;
+    height: auto;
+}
+
+.btn {
+  background: #e0e0e0;
+  background-image: -webkit-linear-gradient(top, #e0e0e0, #fa0d0d);
+  background-image: -moz-linear-gradient(top, #e0e0e0, #fa0d0d);
+  background-image: -ms-linear-gradient(top, #e0e0e0, #fa0d0d);
+  background-image: -o-linear-gradient(top, #e0e0e0, #fa0d0d);
+  background-image: linear-gradient(to bottom, #e0e0e0, #fa0d0d);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 49px;
+  padding: 9px 40px 9px 40px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #d1d1d1;
+  text-decoration: none;
+}
+
+
+#minbut {
+    -webkit-animation: mymove 5s 1; /* Chrome, Safari, Opera */
+    animation: mymove 5s 1;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    from {visibility: hidden;}
+    to {visibility: visible;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+  from {visibility: hidden;}
+  to {visibility: visible;}
+}

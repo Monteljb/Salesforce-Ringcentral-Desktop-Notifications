@@ -1,0 +1,20 @@
+{
+  "name": "closetnotification",
+  "version": "1.0.0",
+  "description": "",
+  "main": "exp.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^1.8.3"
+  },
+  "dependencies": {
+    "get-uid": "^1.0.1",
+    "mysql": "^2.15.0",
+    "mysql-events": "0.0.11",
+    "uid": "0.0.2"
+  }
+}
